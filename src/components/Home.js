@@ -4,12 +4,9 @@ function Home() {
   return (
     <div id="home">
       <h1>
-        Stellah is a Web Developer from Kitengela
+      {username} is a Web Developer from {city}
       </h1>
     </div>
   );
 }
 export default Home;
-console.log(username); // Liza
-console.log(city); // New York
-
