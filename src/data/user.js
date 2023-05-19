@@ -4,12 +4,4 @@ const city = "New York";
 const image = "https://i.imgur.com/mV8PQxj.gif";
 
 // export all three variables as named exports
-function values() {
-    console.log("username, city, image");
-  }
-  
-  function gryffMascot() {
-    console.log("The Lion");
-  }
-  
-  export { colors, gryffMascot };
+export { username, city, image };
